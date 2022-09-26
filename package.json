@@ -1,0 +1,30 @@
+{
+  "name": "xls-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dineshkr23/node-xls-parser.git"
+  },
+  "author": "Dinesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dineshkr23/node-xls-parser/issues"
+  },
+  "homepage": "https://github.com/Dineshkr23/node-xls-parser#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-xlsx": "^0.21.0",
+    "path": "^0.12.7",
+    "write-excel-file": "^1.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
